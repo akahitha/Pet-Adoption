@@ -1,0 +1,71 @@
+/* Centering the form */
+.form-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+}
+
+h2 {
+    color: #3b5998;
+    margin-bottom: 15px;
+}
+
+/* Styling for the form */
+.add-pet-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Form fields styling */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Submit button styling */
+.submit-btn {
+    background-color: #3b5998;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #2d4373;
+}
+
+/* Responsive Design */
+@media (max-width: 500px) {
+    .form-container {
+        width: 90%;
+        padding: 15px;
+    }
+    
+    input {
+        font-size: 14px;
+    }
+}
